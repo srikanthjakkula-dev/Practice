@@ -1,21 +1,21 @@
-git init
-git add
-git commit
-git config --global user.name
-git config --global user.email
-git push
-git log
-git status
+-git init
+-git add
+-git commit
+-git config --global user.name
+-git config --global user.email
+-git push
+-git log
+-git status
 
-public class 
+public class Maxmin{
  public static void main(String[] args) {
 
-    int arr[]={1,4,20,7,2,6,10,15,20,11,17,16};
+  int arr[]={1,4,20,7,2,6,10,15,20,11,17,16};
 
-    int max1= Integer.MIN_VALUE;
+   int max1= Integer.MIN_VALUE;
     int max2= Integer.MIN_VALUE;
 
-    for (int i=0;i<arr.length;i++)
+   for (int i=0;i<arr.length;i++)
     {
         if(arr[i]>max1)
         {
@@ -28,6 +28,7 @@ public class
     }
     System.out.println(max1);
     System.out.println(max2);
+}
 }
 
 Decentralized and centralized system
